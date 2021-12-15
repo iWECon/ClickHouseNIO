@@ -115,7 +115,7 @@ public indirect enum ClickHouseTypeName {
                 self = .uint64
             case "UUID":
                 self = .uuid
-            case "String", "DateTime", "Date", "Time":
+            case "String":
                 self = .string
             default:
                 return nil
